@@ -1,11 +1,11 @@
 def calculate_rectangle_area(height, width):    
     ## Todo: update `None` to contain the formula for `rectangle_area`
-    rectangle_area = None
+    rectangle_area = height * width
     return rectangle_area
 
 def calculate_area_of_square(side):
     ## Todo: update `None` to contain the formula for `squre_area`
-    square_area = None
+    square_area = side * side
     return square_area
 
 def calculate_total_plus_tip_per_person(total_bill, tip_percent, number_of_people):
